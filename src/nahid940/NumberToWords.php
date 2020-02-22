@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: nahid
+ * User: nahid940
  * Date: 2/22/20
  * Time: 10:49 AM
  */
 
-namespace nahid\NumberToWords;
+namespace nahid940\NumberToWords;
 
 
 class NumberToWords

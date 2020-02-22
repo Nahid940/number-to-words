@@ -1,5 +1,5 @@
 <?php
-include_once 'src/nahid/NumberToWords.php';
+include_once 'src/nahid940/NumberToWords.php';
 
 $n=new \nahid\NumberToWords\NumberToWords();
 
