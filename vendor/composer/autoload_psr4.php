@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'nahid\\NumberToWords\\' => array($baseDir . '/src'),
+    'nahid940\\NumberToWords\\' => array($baseDir . '/src'),
 );

@@ -9,12 +9,12 @@ class ComposerStaticInit43d3ac6c18f101a987a2c4ebd89a10e3
     public static $prefixLengthsPsr4 = array (
         'n' => 
         array (
-            'nahid\\NumberToWords\\' => 20,
+            'nahid940\\NumberToWords\\' => 23,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'nahid\\NumberToWords\\' => 
+        'nahid940\\NumberToWords\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
