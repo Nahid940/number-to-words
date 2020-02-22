@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f165faf3-bcd9-4a5c-9e2c-7312571756c3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NumberToWords.php" afterPath="$PROJECT_DIR$/src/NumberToWords.php" />
-    </list>
+    <list default="true" id="f165faf3-bcd9-4a5c-9e2c-7312571756c3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,12 +221,12 @@
       <option name="presentableId" value="Default" />
       <updated>1582346838853</updated>
       <workItem from="1582346840382" duration="3820000" />
-      <workItem from="1582377427257" duration="7758000" />
+      <workItem from="1582377427257" duration="8730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11578000" />
+    <option name="totallyTimeSpent" value="12550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="25" width="1325" height="743" extended-state="6" />
