@@ -11,7 +11,7 @@ Convert numbers into words easily.
 
 # Easy Installation
 * Run the command
- `composer require nahid/number-to-words`
+ `composer require nahid940/number-to-words`
  * autoload file 
  `require 'vendor/autoload.php'`
  
