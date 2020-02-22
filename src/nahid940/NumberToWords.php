@@ -6,7 +6,7 @@
  * Time: 10:49 AM
  */
 
-namespace nahid940\NumberToWords;
+namespace nahid940;
 
 
 class NumberToWords
