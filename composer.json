@@ -1,0 +1,17 @@
+{
+    "name": "nahid/number-to-words",
+    "description": "Convert numbers into words",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nahid Islam",
+            "email": "nahid940@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"nahid\\NumberToWords\\": "src/"}
+    },
+    "require": {}
+}
