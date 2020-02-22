@@ -17,6 +17,11 @@ class NumberToWords
 
     }
 
+    /**
+        @param $value which is the number value that you want to convert
+        @param $currency which is the value for Taka, Rupees etc.
+     **/
+
     public function convertToWords($value,$currency)
     {
         $number = $value;
@@ -25,8 +30,8 @@ class NumberToWords
         $hundred = null;
         $digits_1 = strlen($no);
         $i = 0;
-        $str = array();
-        $words = array('0' => '', '1' => 'one', '2' => 'two',
+        $word_str = array();
+        $number_words = array('0' => '', '1' => 'one', '2' => 'two',
             '3' => 'three', '4' => 'four', '5' => 'five', '6' => 'six',
             '7' => 'seven', '8' => 'eight', '9' => 'nine',
             '10' => 'ten', '11' => 'eleven', '12' => 'twelve',
@@ -43,21 +48,21 @@ class NumberToWords
             $no = floor($no / $divider);
             $i += ($divider == 10) ? 1 : 2;
             if ($number) {
-                $plural = (($counter = count($str)) && $number > 9) ? 's' : null;
-                $hundred = ($counter == 1 && $str[0]) ? ' and ' : null;
-                $str [] = ($number < 21) ? $words[$number] .
+                $plural = (($counter = count($word_str)) && $number > 9) ? 's' : null;
+                $hundred = ($counter == 1 && $word_str[0]) ? ' and ' : null;
+                $word_str [] = ($number < 21) ? $number_words[$number] .
                     " " . $digits[$counter] . $plural . " " . $hundred
                     :
-                    $words[floor($number / 10) * 10]
-                    . " " . $words[$number % 10] . " "
+                    $number_words[floor($number / 10) * 10]
+                    . " " . $number_words[$number % 10] . " "
                     . $digits[$counter] . $plural . " " . $hundred;
-            } else $str[] = null;
+            } else $word_str[] = null;
         }
-        $str = array_reverse($str);
-        $result = implode('', $str);
+        $word_str = array_reverse($word_str);
+        $result = implode('', $word_str);
         $points = ($point) ?
-            "." . $words[$point / 10] . " " .
-            $words[$point = $point % 10] : '';
+            "." . $number_words[$point / 10] . " " .
+            $number_words[$point = $point % 10] : '';
        return $result  . $points . $currency;
     }
 
