@@ -13,11 +13,11 @@ Convert numbers into words easily.
 * Run the command
  ````php
  composer require nahid940/number-to-words
- ```
+ ````
  * autoload file 
  ````php
  require 'vendor/autoload.php'
- ```
+ ````
  
 # Usage
 * include the autoload file in your PHP file.
