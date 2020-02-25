@@ -11,11 +11,15 @@ Convert numbers into words easily.
 
 # Easy Installation
 * Run the command
- `composer require nahid940/number-to-words`
+ ```
+ composer require nahid940/number-to-words
+ ```
  * autoload file 
- `require 'vendor/autoload.php'`
+ ```
+ require 'vendor/autoload.php'
+ ```
  
-# Uses
+# Usage
 * include the autoload file in your PHP file.
 * Instantiate the object of the NumberToWords Class.
 * Pass two parameters in the function `convertToWords(number,currency)` one is the number and 
