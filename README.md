@@ -22,7 +22,11 @@ Convert numbers into words easily.
 # Usage
 * include the autoload file in your PHP file.
 * Instantiate the object of the NumberToWords Class.
-* Pass two parameters in the function `convertToWords(number,currency)` one is the number and 
+* Pass two parameters in the function 
+````php
+convertToWords(number,currency)
+````
+one is the number and 
     another is the currency name.
  
 
