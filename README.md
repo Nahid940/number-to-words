@@ -34,7 +34,7 @@ Convert numbers into words easily.
 ````php
 convertToWords(number,currency)
 ````
-*First one is the number you want to convert and 
+* First one is the number you want to convert and 
     another is the currency name (BDT, RUPEE).
  
 
