@@ -22,12 +22,20 @@ Convert numbers into words easily.
 # Usage
 * include the autoload file in your PHP file.
 * Instantiate the object of the NumberToWords Class.
+```php
+    use NumberToWords\NumberToWords;
+    $nnumber_to_words=new NumberToWords();
+```
+* Call the function
+```php
+   $nnumber_to_words->convertToWords(number,currency);
+```
 * Pass two parameters in the function 
 ````php
 convertToWords(number,currency)
 ````
-one is the number and 
-    another is the currency name.
+*First one is the number you want to convert and 
+    another is the currency name (BDT, RUPEE).
  
 
 
